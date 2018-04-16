@@ -5,9 +5,6 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
-  final FirebaseMessaging _firebaseMessaging = new FirebaseMessaging();
-  //_firebaseMessaging.requestNotificationPermissions();
-  //_firebaseMessaging.configure();
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Millburn Tutor Club',
@@ -52,7 +49,7 @@ class LoginPage extends StatefulWidget {
 class LoginPageState extends State<LoginPage> {
   final scaffoldKey = new GlobalKey<ScaffoldState>();
   final formKey = new GlobalKey<FormState>();
-
+  final FirebaseMessaging _firebaseMessaging = new FirebaseMessaging();
   String _email;
   String _password;
 
