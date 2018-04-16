@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:web_socket_channel/web_socket_channel.dart';
 
 void main() => runApp(new MyApp());
 
