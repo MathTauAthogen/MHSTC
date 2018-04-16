@@ -49,7 +49,6 @@ class LoginPage extends StatefulWidget {
 class LoginPageState extends State<LoginPage> {
   final scaffoldKey = new GlobalKey<ScaffoldState>();
   final formKey = new GlobalKey<FormState>();
-  final FirebaseMessaging _firebaseMessaging = new FirebaseMessaging();
   String _email;
   String _password;
 
