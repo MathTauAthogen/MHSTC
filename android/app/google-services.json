@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "565270734161",
+    "firebase_url": "https://millburntutorclub.firebaseio.com",
+    "project_id": "millburntutorclub",
+    "storage_bucket": "millburntutorclub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565270734161:android:04f11bc0d3582204",
+        "android_client_info": {
+          "package_name": "testing.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565270734161-hidi6k57cvchb3cfjhk3spj9eemi28uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4BQ0owYHs46CV-y0V6qfkRYL_Tag8AfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
