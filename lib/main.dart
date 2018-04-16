@@ -40,6 +40,7 @@ class LoginPageState extends State<LoginPage> {
   }
 
   void _performLogin() {
+    widget.channel.sink.add('$_email,$_password');
     Navigator.of(context).push(
       new MaterialPageRoute(
           builder: (context) {
