@@ -8,7 +8,7 @@ void main() => runApp(new MyApp());
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Millburn Tutor Club',
+      title: 'tutorED',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -71,7 +71,7 @@ class LoginPageState extends State<LoginPage> {
     return new Scaffold(
       key: scaffoldKey,
       appBar: new AppBar(
-        title: new Text('Millburn Tutor Club'),
+        title: new Text('tutorED'),
       ),
       body: new Padding(
         padding: const EdgeInsets.all(16.0),
